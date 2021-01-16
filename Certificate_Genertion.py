@@ -28,7 +28,7 @@ for index,j in df.iterrows():
     elif(a<=15):
         draw.text(xy=(1500,880),text='{}'.format(j['Name']),fill=(255,0,0),font=font)
     elif(a>=21):
-        draw.text(xy=(1000,880),text='{}'.format(j['Name']),fill=(255,0,0),font=font)
+        draw.text(xy=(1000,880),text='{}'.format(j['Name']),fill=(255,0,0),font=font) ##exception Have huge name
     else:    
         draw.text(xy=(1600,880),text='{}'.format(j['Name']),fill=(255,0,0),font=font)
 
